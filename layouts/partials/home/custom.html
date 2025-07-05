@@ -1,0 +1,31 @@
+ <head>  
+    <style>
+	  body {min-height: 100%; background-image: url("img/bg/background.svg"); background-position: center center; background-attachment: fixed; background-repeat: no-repeat; background-size: cover;}
+	  .homespans {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+	  .homespan {display: inline-block; padding:5px; background: rgba(var(--color-primary-300), 1); width: 80px; text-align: center;}
+	  .main-menu {position: absolute; bottom: 0; right: 1rem}
+	  .logo, footer, nav a {display: none}
+	  
+	  @keyframes fadeIn {from { opacity: 0; } to { opacity: 1; }}
+	  .homespan {opacity: 0; animation: fadeIn 1s ease-in-out forwards;}
+	  .homespan.one {animation-delay: .8s}
+	  .homespan.three {animation-delay: 4s}
+	  .homespan.four {animation-delay: 1.6s}
+	  .homespan.five {animation-delay: 3.2s}
+	  .homespan.six {animation-delay: 2.4s}
+	
+	</style>
+  </head>
+
+         
+    <div class="homespans">
+	  <span class="homespan one"><a href="news">News</a></span>
+	  <span class="homespan two"><a href="about">About</a></span>
+	  <span class="homespan three"><a href="journal">Journal</a></span>
+	  <span class="homespan four"><a href="travel">Travel</a></span>
+	  <span class="homespan five"><a href="food">Food</a></span>
+	  <span class="homespan six"><a href="touren">Touren</a></span>
+	</div>
+	
+	
+         

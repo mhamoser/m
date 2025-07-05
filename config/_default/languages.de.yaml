@@ -1,0 +1,74 @@
+disabled: false
+languageCode: de
+languageName: Deutsch
+weight: 1
+title: was michi mag
+
+params:
+  displayName: DE
+  isoCode: de
+  rtl: false
+  dateFormat: 02. Januar 2006
+  logo: img/logo.svg
+  secondaryLogo: img/logo.svg
+  description: was michi mag
+  copyright: © Michael Hamoser 2025
+  author:
+    name: Michael
+    email: michael@hamoser.de
+    image: img/michi.jpg
+    #   imageQuality = 96
+    #   headline = "I'm only human"
+    bio:
+      Born 1978, school, university. Playing the saxophone, loving to photograph,
+      enjoying to travel.
+    links:
+      - email: mailto:michael@hamoser.de
+      - link: https://hamoser.de
+      - bluesky: https://bsky.app/profile/michaot.bsky.social
+      - github: https://github.com/mhamoser
+      - lastfm: https://lastfm.com/user/mhamoser
+      - mastodon: https://mastodon.social/@michaos
+      - pinterest: https://www.pinterest.de/mhamoser/
+      
+#     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+#     { apple = "https://www.apple.com" },
+#     { blogger = "https://username.blogspot.com/" },
+#     { codepen = "https://codepen.io/username" },
+#     { dev = "https://dev.to/username" },
+#     { discord = "https://discord.gg/invitecode" },
+#     { dribbble = "https://dribbble.com/username" },
+#     { facebook = "https://facebook.com/username" },
+#     { flickr = "https://www.flickr.com/photos/username/" },
+#     { foursquare = "https://foursquare.com/username" },
+#     { gitlab = "https://gitlab.com/username" },
+#     { google = "https://www.google.com/" },
+#     { hashnode = "https://username.hashnode.dev" },
+#     { instagram = "https://instagram.com/username" },
+#     { itch-io = "https://username.itch.io" },
+#     { keybase = "https://keybase.io/username" },
+#     { kickstarter = "https://www.kickstarter.com/profile/username" },
+#     { linkedin = "https://linkedin.com/in/username" },
+#     { medium = "https://medium.com/username" },
+#     { microsoft = "https://www.microsoft.com/" },
+#     { orcid = "https://orcid.org/userid" },
+#     { patreon = "https://www.patreon.com/username" },
+#     { reddit = "https://reddit.com/user/username" },
+#     { researchgate = "https://www.researchgate.net/profile/username" },
+#     { slack = "https://workspace.url/team/userid" },
+#     { snapchat = "https://snapchat.com/add/username" },
+#     { soundcloud = "https://soundcloud.com/username" },
+#     { spotify = "https://open.spotify.com/user/userid" },
+#     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+#     { steam = "https://steamcommunity.com/profiles/userid" },
+#     { telegram = "https://t.me/username" },
+#     { threads = "https://www.threads.net/@username" },
+#     { tiktok = "https://tiktok.com/@username" },
+#     { tumblr = "https://username.tumblr.com" },
+#     { twitch = "https://twitch.tv/username" },
+#     { twitter = "https://twitter.com/username" },
+#     { x-twitter = "https://twitter.com/username" },
+#     { whatsapp = "https://wa.me/phone-number" },
+#     { youtube = "https://youtube.com/username" },
+#     { ko-fi = "https://ko-fi.com/username" },
+#     { codeberg = "https://codeberg.org/username"},

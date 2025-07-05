@@ -1,0 +1,18 @@
+<div>  
+  <span class="zutaten" style="width: 25%; display: inline-block; vertical-align:top; padding: 8px">
+  <ul>
+
+  <!-- find all li tags -->
+  {{ $liTagRegex := `<li\s+[^>]*>` -}}
+  {{ $liTags := findRE $liTagRegex .Inner -}}
+  {{ $newContent := .Inner -}}
+
+  {{ range $liTags -}}
+    
+  {{ end -}}
+
+  {{ $newContent | safeHTML -}}
+  
+  </ul>
+  </span>
+

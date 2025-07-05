@@ -1,0 +1,18 @@
+@font-face {font-family: 'dosis'; src: url('/m/fonts/dosis-light.woff') format('woff')}
+@font-face {font-family: 'source'; src: url('/m/fonts/sourcesans-light.woff') format('woff')}
+
+.prose, .max-w-prose, .max-w-full, .max-w-fit {max-width: 100%}
+.max-w-fit {width: 1200px}
+
+h1, h2, h3, h4, h5, h6 {font-weight: normal; font-family: 'source'}
+
+p, li {line-height: 1.4rem}
+p, li, a, div, label, ul, ol {font-family: 'dosis'}
+
+.svglogo{stroke:black;fill:none;stroke-miterlimit:10;stroke-width: 15px}
+.dark .svglogo {stroke:white}
+
+.dark li::marker {color: white}
+
+.myhero {background-color: rgba(256,256,256,.6)}
+.dark .myhero {background-color: rgba(0, 0, 0, 0.6)}

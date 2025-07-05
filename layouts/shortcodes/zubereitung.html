@@ -1,0 +1,17 @@
+<span class="zubereitung" style="width: 74%; display: inline-block; vertical-align:top; padding: 8px">
+  <ol>
+
+  <!-- find all li tags -->
+  {{ $liTagRegex := `<li\s+[^>]*>` -}}
+  {{ $liTags := findRE $liTagRegex .Inner -}}
+  {{ $newContent := .Inner -}}
+
+  {{ range $liTags -}}
+    
+  {{ end -}}
+
+  {{ $newContent | safeHTML -}}
+  
+  </ol>
+  <span>
+</div>
